@@ -1,0 +1,17 @@
+.display-quote-div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 6%;
+	width: 95%;
+	height: 35%;
+}
+.display-quote-area{
+	font-size: 40px;
+	text-align: center;
+	padding: 10px;
+}
+h2{
+	margin-top: 55px;
+}
