@@ -1,0 +1,26 @@
+.click-button{
+	color: black;
+	border: 2px solid black;
+	height: 85px;
+	width: 180px;
+	cursor: pointer;
+	font-size: x-large;
+	font-weight: bold;
+	border-radius: 5px;
+	background-color: #778899;
+	box-shadow: 5px 5px black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
+.click-button:hover{
+	height: 90px;
+	width: 190px;
+	font-size: 28px;
+	background-color: black;
+	color: white;
+	transition: ease-in-out 0.2s;
+	box-shadow: 5px 5px #778899;
+}

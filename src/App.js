@@ -1,14 +1,13 @@
-import React from 'react';
-import './App.css';
-import Button from './components/Button'
-import DisplayDiv from './components/DisplayDiv'
+import React from "react";
+import "./App.css";
+import Home from "./pages/Home";
 
 function App() {
+  
   return (
-	<div className='root-app-class'>
-		<DisplayDiv className='display-quote-app'/>
-    	<Button />
-	</div>
+    <div className="root-app-class">
+      <Home className="display-quote-app" />
+    </div>
   );
 }
 

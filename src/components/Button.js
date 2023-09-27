@@ -1,15 +1,10 @@
 import React from "react";
-import "../Button.css";
+import "../styles/Button.css";
 
-export default function Button() {
-  async function getQuote() {
-	const response = await fetch('')
-  }
+export default function Button({ onClick }) {
   return (
-    <div className="click-button-div">
-      <button className="click-button" onLoad={getQuote} onClick={getQuote}>
+      <button className="click-button" onClick={onClick}>
         Generate Quote
       </button>
-    </div>
   );
 }
