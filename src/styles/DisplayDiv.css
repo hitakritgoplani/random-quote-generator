@@ -1,19 +1,33 @@
-.display-quote-div {
+.root-content{
+    width: 100dvw;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.display-quote-div{
+    padding: 0 10dvw;
+    display: flex;
+    height: 70dvh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.display-quote-area.loading {
+    color: #f56934 ;
+}
+
+.display-quote-area{
+    font-style: italic;
+}
+
+.root-button{
+    height: 30dvh;
+    width: 100dvw;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 6%;
-    width: 95%;
-    height:fit-content;
-}
-
-.display-quote-area {
-    font-size: 40px;
-    text-align: center;
-    padding: 10px;
-}
-
-h2 {
-    margin-top: 55px;
 }
