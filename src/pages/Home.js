@@ -3,11 +3,11 @@ import Button from "../components/Button";
 import '../styles/DisplayDiv.css';
 
 export default function Home() {
-    const [quote, setQuote] = useState('Getting the quote');
+    const [quote, setQuote] = useState('Getting a quote');
     const [author, setAuthor] = useState('');
     
     async function getQuote() {
-        setQuote("Getting the quote")
+        setQuote("Getting a quote")
         const apiKey = process.env.REACT_APP_API_KEY;
         if (!apiKey) {
           throw new Error('API key not found in environment variables');
@@ -39,7 +39,7 @@ export default function Home() {
     return (
         <div className='root-content'>
             <div className="display-quote-div">
-                <h2 className={`display-quote-area ${quote === 'Getting the quote' ? 'loading' : ''}`}>
+                <h2 className={`display-quote-area ${quote === 'Getting a quote' ? 'loading' : ''}`}>
                     “ {quote} ”
                 </h2>
                 <h4> ~ {author}</h4>
