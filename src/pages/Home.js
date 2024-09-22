@@ -8,6 +8,7 @@ export default function Home() {
     
     async function getQuote() {
         setQuote("Getting a quote")
+        setAuthor("");
         const apiKey = process.env.REACT_APP_API_KEY;
         if (!apiKey) {
           throw new Error('API key not found in environment variables');
